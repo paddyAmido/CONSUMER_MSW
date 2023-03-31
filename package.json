@@ -1,0 +1,27 @@
+{
+  "name": "consumer_msw",
+  "version": "1.0.0",
+  "description": "Consumer example with MSW for pactflow",
+  "main": "index.js",
+  "scripts": {
+    "test:msw": "jest  --verbose './test/runTest.msw.test.js'"
+  },
+  "author": "Patrick Hendron",
+  "license": "ISC",
+  "devDependencies": {
+    "@pact-foundation/pact": "9.17.2",
+    "@types/axios": "0.14.0",
+    "@types/jest": "27.4.1",
+    "axios": "0.26.0",
+    "jest": "27.5.1",
+    "msw": "0.36.8",
+    "ts-jest": "27.1.3",
+    "typescript": "4.6.2"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@pactflow/pact-msw-adapter": "^1.3.1",
+    "babel-jest": "^29.5.0",
+    "lodash": "^4.17.21"
+  }
+}
